@@ -2,7 +2,7 @@
 
 Contains practice codes using the [Kt. Academy](https://kt.academy/) [CHEAT SHEET](https://kt.academy/Kotlin_Cheat_Sheet.pdf).
 
-## Basics
+## 1 . [Basics](./1_%20Basics/)
 
 1.  [Hello World](./1_%20Basics/1_hello_world.kt)
     ```kotlin
@@ -27,6 +27,9 @@ Contains practice codes using the [Kt. Academy](https://kt.academy/) [CHEAT SHEE
     ```kotlin
     var address: String? = null
     ```
+
+## 2. [Control Structures](./2_Control_Structures/)
+
 6.  [if expression](./2_Control_Structures/6_if_expression.kt)
     ```kotlin
     if (6 > 7){
@@ -68,6 +71,8 @@ Contains practice codes using the [Kt. Academy](https://kt.academy/) [CHEAT SHEE
          num < 0 -> "Negative"
          else -> "Zero"
     ```
+
+## 3. [Classes](./3_Classes/)
 
 9.  [Primary constructor](./3_Classes/9_primary_constructor.kt)
 
