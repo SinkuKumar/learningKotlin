@@ -1,11 +1,14 @@
-/* 
- * Variables with nullable types
+/*
+ * Title: Variable with null type example in Kotlin
+ * Author: Sinku Kumar
+ * Date:  Jan 15, 2023
  */
 fun main(){
     var name: String? = null
-    val length: Int
+    var length: Int
     length = name?.length ?: 0      // length, If name is null, then length = 0
-    //length = name?.length ?:return  // length, If name is null, then return
-    //length = name?.length ?: throw NullPointerException("name is null") // length, If name is null, then throw NullPointerException
+    println(length)
+    name = "Sinku"
+    println(name.length)
 }
 
